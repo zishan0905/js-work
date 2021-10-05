@@ -84,21 +84,33 @@
 //   for(let i = 0;i < name.length;i++){
 //     if(name[i]==" "){
 //       return (name[0]+(name[i])
-//     }
-//   }
-// }
+// //     }
+// //   }
+// // }
   
 
-  function countPositivesSumNegatives(arr) {
- let counts=0
- let sum =0
- for(let i =0;i <arr.length;i++){
-   if(arr[i]>0){
-     count+=1
-   }else if(arr[i]  < 0){
-     sum+=arr[i]
-   }
- }
+//   function countPositivesSumNegatives(arr) {
+//  let counts=0
+//  let sum =0
+//  for(let i =0;i <arr.length;i++){
+//    if(arr[i]>0){
+//      count+=1
+//    }else if(arr[i]  < 0){
+//      sum+=arr[i]
+//    }
+//  }
+// }
+// console.log(counts,sum)
+// countPositivesSumNegatives([12,34,56,-100])
+// let a = 9
+
+function double(x)
+{
+  return x*3
 }
-console.log(counts,sum)
-countPositivesSumNegatives([12,34,56,-100])
+function binary(x){
+  return x.toString(2)
+}
+let a = [4,5,6,7,8]
+let b = a.map(binary)
+console.log(b)
